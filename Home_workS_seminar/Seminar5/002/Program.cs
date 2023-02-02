@@ -7,6 +7,7 @@ double Fibonacci(int n)
 }
 
 
+
 Console.Write("Число - ");
 int num = Int32.Parse(Console.ReadLine()) + 1;
 for (int i = 1; i < num; i++)
