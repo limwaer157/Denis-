@@ -21,42 +21,22 @@ void Random(int[,] array1)
 
 int[,] array1 = new int[rows,columns];
 int[,] arrayNew = new int[rows,columns];
-if (rows == columns)
-{
-    Random(array1);
+
+Random(array1);
 
 void GangeArray(int[,] array1 , int [,] arrayNew)
 {
-    int probel = 0;
     int k =0;
 for (int columns = 0; columns < array1.GetLength(0); columns++)
 {
     for (int rows = 0; rows < array1.GetLength(1); rows++)
     {
          arrayNew[rows,columns] = array1[rows,k];
-       
-    
+        Console.Write(arrayNew[rows ,columns]);
+        Console.Write(" ");
     }
     k++;
-   
-    
-}
-}
-GangeArray(array1, arrayNew); 
-
-Console.WriteLine();
-Console.WriteLine();
-
-
-for (int i = 0; i < arrayNew.GetLength(0); i++)
-{
-    for (int j = 0; j <arrayNew.GetLength(0); j++)
-    {
-       
-        Console.Write(arrayNew[j ,i]);
-        Console.Write(" "); 
-    }
     Console.WriteLine();
 }
 }
-else Console.WriteLine("Матрица не квадратная");
+GangeArray(array1, arrayNew); 
