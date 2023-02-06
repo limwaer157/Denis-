@@ -46,6 +46,6 @@ void Arr(int [,] arr , int [,]next )
              Console.Write($" {next[i,j]}");
             }
         }
-        Console.WriteLine();
+         Console.WriteLine();
     }
 }
