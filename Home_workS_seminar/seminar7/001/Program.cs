@@ -20,7 +20,6 @@ void Random(int[,] array1)
 
 int[,] array1 = new int[rows,columns];
 int[,] arrayNew = new int[rows,columns];
-
 Random(array1);
 
 void SortArray(int[,] array1 )
