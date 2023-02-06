@@ -1,7 +1,6 @@
 ﻿// Написать программу, которая обменивает элементы первой строки и последней строки
 Console.WriteLine("Hello, World!");
 
-
 Console.Write("Введите количество строк - ");
 int rows = Int32.Parse(Console.ReadLine());
 Console.Write("Введите количество столбцов - ");
