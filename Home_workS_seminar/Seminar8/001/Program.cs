@@ -11,7 +11,7 @@ void FirstMatrix(int[,] first)
 {
     for (int i = 0; i < first.GetLength(0); i++)
     {
-        for (int j = 0; j < first.GetLength(0); j++)
+        for (int j = 0; j < first.GetLength(1); j++)
         {
             first[i,j] = new Random().Next(1,10);
             Console.Write(first[i,j]);
@@ -30,7 +30,7 @@ void SecondMatrix(int[,] second)
 {
     for (int i = 0; i < second.GetLength(0); i++)
     {
-        for (int j = 0; j < second.GetLength(0); j++)
+        for (int j = 0; j < second.GetLength(1); j++)
         {
             second[i,j] = new Random().Next(1,10);
             Console.Write(second[i,j]);
@@ -58,5 +58,4 @@ void Multiplication(int[,] first , int[,] second)
         Console.WriteLine();
     }
 }
-
 Multiplication(first,second);
