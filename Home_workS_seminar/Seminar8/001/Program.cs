@@ -39,7 +39,8 @@ void SecondMatrix(int[,] second)
         Console.WriteLine();
     }
 }
-
+ 
+ 
 int[,] second = new int[a,b];
 FirstMatrix(second);
 
