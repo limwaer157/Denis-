@@ -1,16 +1,16 @@
 ﻿// Написать программу, упорядочивания по убыванию элементы каждой строки двумерной массива.
 
 Console.Write("Введите количество строк - ");
-int rows = Int32.Parse(Console.ReadLine());
+int rows = Int32.Parse(Console.ReadLine()!);
 Console.Write("Введите количество столбцов - ");
-int columns = Int32.Parse(Console.ReadLine());
+int columns = Int32.Parse(Console.ReadLine()!);
 void Random(int[,] array1)
 {
     for (int rows = 0; rows < array1.GetLength(0); rows++)
     {
         for (int columns = 0; columns < array1.GetLength(1); columns++)
         {
-            array1[rows,columns] = new Random().Next(1,10);
+            array1[rows,columns] = new Random().Next(1,100);
             Console.Write(array1 [rows ,columns]);
             Console.Write(" ");
         }
@@ -19,7 +19,7 @@ void Random(int[,] array1)
 }
 
 int[,] array1 = new int[rows,columns];
-int[,] arrayNew = new int[rows,columns];
+
 Random(array1);
 
 void SortArray(int[,] array1 )
