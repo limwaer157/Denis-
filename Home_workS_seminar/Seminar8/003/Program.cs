@@ -21,7 +21,8 @@ void FirstMatrix(int[,,] first)
             
             for (int k = 0; k < first.GetLength(2); k++)
             {
-
+                  
+                
                    first[i,j,k] = n + 1 ;
                    Console.Write(first[i,j,k] + $"(x-{i} y-{j} z-{k})");
                    Console.Write(" ");
