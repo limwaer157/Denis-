@@ -40,7 +40,6 @@ void SecondMatrix(int[,] second)
     }
 }
  
- 
 int[,] second = new int[a,b];
 FirstMatrix(second);
 
