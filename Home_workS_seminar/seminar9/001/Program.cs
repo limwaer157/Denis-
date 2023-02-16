@@ -1,7 +1,6 @@
 ﻿// Показать натуральные числа от N до 1, N задано
 
 
-
 Console.Write("Введите число А - ");
 int a = Int32.Parse(Console.ReadLine());
 
