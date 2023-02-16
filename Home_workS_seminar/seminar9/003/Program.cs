@@ -5,7 +5,6 @@ int a = Int32.Parse(Console.ReadLine());
 Console.Write("Введите число B - ");
 int b = Int32.Parse(Console.ReadLine());
 
-
 int Summ(int a ,int b)
 {
     if (b < a) return 0;    
