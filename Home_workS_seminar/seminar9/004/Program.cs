@@ -1,6 +1,5 @@
 ﻿// Написать программу вычисления функции Аккермана
 
-
 Console.Write("Введите n  - ");
 int n = Int32.Parse(Console.ReadLine());
 Console.Write("Введите m - ");
